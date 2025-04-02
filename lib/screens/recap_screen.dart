@@ -8,7 +8,7 @@ class RecapScreen extends StatelessWidget {
     final allenamenti = GestoreAllenamenti.ottieniAllenamenti();
 
     return Scaffold(
-      appBar: AppBar(title: Text('Allenamenti Salvati')),
+      appBar: AppBar(title: Text('Recap')),
       body: allenamenti.isEmpty
           ? Center(child: Text('Nessun allenamento salvato'))
           : ListView.builder(
