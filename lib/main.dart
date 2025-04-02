@@ -10,7 +10,7 @@ class RunBalanceApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'RunBalance',
+      title: 'RunBalance01',
       theme: ThemeData(primarySwatch: Colors.orange),
       home: SplashScreen(),
     );
